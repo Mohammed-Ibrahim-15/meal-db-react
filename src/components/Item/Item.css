@@ -1,0 +1,37 @@
+.item {
+    width: 300px;
+    height: 510px;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+}
+
+.item img {
+    height: 286px;
+    width: 286px;
+    border-radius: 8px;
+    margin: 7px;
+}
+
+.item-info {
+    margin: 0 14px;
+}
+
+.item-info p {
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.btn-cart {
+    width: 100%;
+    background: bisque;
+    border-style: none;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.btn-cart:hover {
+    background-color: orange;
+}
