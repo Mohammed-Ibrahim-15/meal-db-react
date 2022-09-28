@@ -13,4 +13,7 @@
 
 .cart-container {
     background-color: bisque;
+    top: 0;
+    padding: 0px 20px;
+
 }
