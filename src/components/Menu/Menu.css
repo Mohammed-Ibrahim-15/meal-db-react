@@ -1,4 +1,5 @@
 .menu-container {
+    position: relative;
     display: grid;
     grid-template-columns: 4fr 1fr;
 
@@ -13,7 +14,32 @@
 
 .cart-container {
     background-color: bisque;
+    position: static;
     top: 0;
     padding: 0px 20px;
 
 }
+
+@media screen and (max-width:480px) {
+    .item-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .menu-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (min-width:481px) and (max-width: 900px) {
+    .item-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/* @media screen and (min-width: 901px) {
+    .item-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+} */
